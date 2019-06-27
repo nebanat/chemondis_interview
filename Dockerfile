@@ -1,6 +1,8 @@
 FROM python:3.6-slim
 MAINTAINER Aaron Biliyok  <abiliyok@gmail.com>
 
+#RUN apk update && apk add build-base postgresql-dev
+
 ENV INSTALL_PATH /api
 RUN mkdir -p $INSTALL_PATH
 
